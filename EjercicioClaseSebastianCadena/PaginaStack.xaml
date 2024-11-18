@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioClaseSebastianCadena.PaginaStack"
+             Title="PaginaStack">
+    <StackLayout>
+
+        <!-- Etiqueta con fuente grande -->
+        <Label Text="Sebastian Cadena"
+               FontSize="30"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+
+        <!-- Etiqueta con fuente mediana -->
+        <Label Text="Sebastian Cadena"
+               FontSize="24"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+
+        <!-- Etiqueta con fuente pequeña -->
+        <Label Text="Sebastian Cadena"
+               FontSize="18"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+
+        <Button
+        x:Name="Boton3"
+        Text="Ir a Pagina Flex " 
+
+        Clicked="Boton3_Clicked"
+            VerticalOptions="End"
+   HorizontalOptions="End"
+ />
+
+    </StackLayout>
+</ContentPage>

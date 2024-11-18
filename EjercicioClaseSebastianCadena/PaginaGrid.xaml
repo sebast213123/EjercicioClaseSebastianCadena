@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjercicioClaseSebastianCadena.PaginaGrid"
+             Title="PaginaGrid">
+    <Grid>
+
+        <!-- Definir dos filas y dos columnas -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Cuadro superior izquierdo (Color 1) -->
+        <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="Red" />
+
+        <!-- Cuadro superior derecho (Color 2) -->
+        <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="Blue" />
+
+        <!-- Cuadro inferior izquierdo (Color 3) -->
+        <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="Green" />
+
+        <!-- Cuadro inferior derecho (Color 4) -->
+        <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="Yellow" />
+
+        <Button
+    x:Name="Boton2"
+    Text="Ir a Pagina Stack  " 
+
+    Clicked="Boton2_Clicked"
+            VerticalOptions="End"
+   HorizontalOptions="End"
+     />
+
+    
+
+    </Grid>
+</ContentPage>
