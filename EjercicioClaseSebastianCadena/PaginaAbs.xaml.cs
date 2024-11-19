@@ -9,7 +9,7 @@ public partial class PaginaAbs : ContentPage
 
     private void Boton5_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new MainPage());
+        Navigation.PushAsync(new PaginaGrid());
 
 
     }

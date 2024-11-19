@@ -28,8 +28,9 @@
         Text="Ir a Pagina Flex " 
 
         Clicked="Boton3_Clicked"
-            VerticalOptions="End"
-   HorizontalOptions="End"
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="CenterAndExpand
+"
  />
 
     </StackLayout>

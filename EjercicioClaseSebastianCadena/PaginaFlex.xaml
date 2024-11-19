@@ -3,30 +3,46 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EjercicioClaseSebastianCadena.PaginaFlex"
              Title="PaginaFlex">
-    <FlexLayout Direction="Row" JustifyContent="Start" AlignItems="Center" Padding="10">
+    <FlexLayout Direction="Column" JustifyContent="Start" AlignItems="Stretch">
 
-        <BoxView WidthRequest="50" HeightRequest="50" BackgroundColor="Red" Margin="5"/>
-        <BoxView WidthRequest="50" HeightRequest="50" BackgroundColor="Blue" Margin="5"/>
-        <BoxView WidthRequest="50" HeightRequest="50" BackgroundColor="Green" Margin="5"/>
-        <BoxView WidthRequest="50" HeightRequest="50" BackgroundColor="Yellow" Margin="5"/>
+        <Image Source="https://ethic.es/wp-content/uploads/2023/03/imagen.jpg"  
+               WidthRequest="200"  
+               HeightRequest="150"
+               Margin="5"/>
 
-        
-        <Label Text="Sebastian Cadena"
-               FontSize="20"
-               VerticalTextAlignment="Center"
-               HorizontalTextAlignment="Center"
-               Margin="10" />
+        <Label Text="Sebastián Cadena"
+                   FontSize="20"
+                   HorizontalOptions="Center"
+                   VerticalTextAlignment="Center"
+                   Margin="5"/>
 
+        <Image Source="https://png.pngtree.com/background/20230524/original/pngtree-sad-pictures-for-desktop-hd-backgrounds-picture-image_2705986.jpg"
+                WidthRequest="200"  
+                HeightRequest="150"
+                Margin="5"
+               />
+
+
+        <Label Text="Sebastián Cadena"
+                   FontSize="20"
+                   HorizontalOptions="Center"
+                   VerticalTextAlignment="Center"
+                   Margin="5"/>
 
         <Button
-    x:Name="Boton4"
-    Text="Ir a Pagina Abs " 
+            x:Name="Boton4"
+            Text="Ir a Pagina Abs " 
 
-    Clicked="Boton4_Clicked"
-         VerticalOptions="End"
+            Clicked="Boton4_Clicked"
+            VerticalOptions="End"
             HorizontalOptions="End"
-        />
+             Margin="10"            
+    />
+
 
 
     </FlexLayout>
 </ContentPage>
+
+
+

@@ -32,8 +32,9 @@
     Text="Ir a Pagina Stack  " 
 
     Clicked="Boton2_Clicked"
-            VerticalOptions="End"
-   HorizontalOptions="End"
+            VerticalOptions="EndAndExpand"
+            HorizontalOptions="StartAndExpand"
+            
      />
 
     
