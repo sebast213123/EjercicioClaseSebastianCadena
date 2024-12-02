@@ -4,37 +4,32 @@
              x:Class="EjercicioClaseSebastianCadena.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
+        <StackLayout
             Padding="30,0"
             Spacing="25">
 
-            
             <Image
                 Source="https://blog.phonehouse.es/wp-content/uploads/2010/07/movistar_logo_sombra.png"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
-
             <Label
                 Text="Recarga de Celular"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
-            
             <Entry
                 x:Name="TelefonoEntry"
                 Placeholder="Número de teléfono"
                 Keyboard="Chat"
                 Margin="0,10,0,10" />
 
-            
             <Entry
                 x:Name="NombreEntry"
                 Placeholder="Nombre"
                 Margin="0,10,0,10" />
 
-            
             <Button
                 x:Name="RecargarButton"
                 Text="Recargar"
@@ -43,6 +38,24 @@
                 BackgroundColor="DodgerBlue"
                 TextColor="White" />
 
-        </VerticalStackLayout>
+            
+            <Button
+                x:Name="MostrarEncriptadoButton"
+                Text="Mostrar Campos Encriptados"
+                Clicked="MostrarCamposEncriptados"
+                Padding="10"
+                BackgroundColor="Green"
+                TextColor="White" />
+            
+            
+            <Label
+                x:Name="MensajeEncriptadoLabel"
+                Text=""
+                Margin="0,10,0,10"
+                IsVisible="False"
+                TextColor="Black"
+                FontSize="Medium" />
+
+        </StackLayout>
     </ScrollView>
 </ContentPage>
