@@ -7,33 +7,42 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
+
+            
             <Image
                 Source="dotnet_bot.png"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
+
             <Label
-                Text="Taller Programacion"
+                Text="Recarga de Celular"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
-            <Label
-                Text="Sebastian Cadena"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+            
+            <Entry
+                x:Name="TelefonoEntry"
+                Placeholder="Número de teléfono"
+                Keyboard="Chat"
+                Margin="0,10,0,10" />
+
+            
+            <Entry
+                x:Name="NombreEntry"
+                Placeholder="Nombre"
+                Margin="0,10,0,10" />
 
             
             <Button
-    x:Name="Boton1"
-    Text="Ir a Pagina 1 " 
-    
-    Clicked="Boton1_Clicked"
-                
-         />
+                x:Name="RecargarButton"
+                Text="Recargar"
+                Clicked="Boton1_Clicked"
+                Padding="10"
+                BackgroundColor="DodgerBlue"
+                TextColor="White" />
 
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>
