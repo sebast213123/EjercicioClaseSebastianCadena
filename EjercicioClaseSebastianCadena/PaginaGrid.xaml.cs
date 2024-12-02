@@ -10,7 +10,7 @@ public partial class PaginaGrid : ContentPage
     private void Boton2_Clicked(object sender, EventArgs e)
     {
 
-        Navigation.PushAsync(new PaginaStack());
+        Navigation.PushAsync(new MainPage());
 
     }
 

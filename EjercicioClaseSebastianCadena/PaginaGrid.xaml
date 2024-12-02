@@ -15,21 +15,57 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <!-- Cuadro superior izquierdo (Color 1) -->
-        <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="Red" />
+        
+       
 
-        <!-- Cuadro superior derecho (Color 2) -->
-        <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="Blue" />
+        <Label
+            Text="Sebastian"
+            FontSize="Large"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Grid.Row="0"
+            Grid.Column="1"
+            Padding="10"
+         
+            />
 
-        <!-- Cuadro inferior izquierdo (Color 3) -->
-        <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="Green" />
 
-        <!-- Cuadro inferior derecho (Color 4) -->
-        <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="Yellow" />
+        <Label
+    Text="Juan"
+    FontSize="Large"
+    HorizontalOptions="Start"
+    VerticalOptions="Center"
+    Grid.Row="0"
+    Grid.Column="0"
+    Padding="0"
+ 
+    />
+
+        <Label
+    Text="Ramirez"
+    FontSize="Large"
+    HorizontalOptions="Center"
+    VerticalOptions="End"
+    Grid.Row="1"
+    Grid.Column="1"
+    Padding="10"
+            TextColor="Brown"
+ 
+    />
+
+        <Label
+Text="Cadena"
+FontSize="Large"
+HorizontalOptions="Center"
+VerticalOptions="End"
+Grid.Row="1"
+Grid.Column="0"
+Padding="0"
+TextColor="Red"            />
 
         <Button
     x:Name="Boton2"
-    Text="Ir a Pagina Stack  " 
+    Text="Volver  " 
 
     Clicked="Boton2_Clicked"
             VerticalOptions="EndAndExpand"
