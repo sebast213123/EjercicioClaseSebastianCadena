@@ -26,5 +26,16 @@ namespace EjercicioClaseSebastianCadena
             MensajeEncriptadoLabel.Text = $"Número de teléfono encriptado: {telefonoEncriptado}\nNombre encriptado: {nombreEncriptado}";
             MensajeEncriptadoLabel.IsVisible = true;
         }
+
+        public void IrPagina2_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(PaginaGrid());
+
+        }
+
+        public Page PaginaGrid()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

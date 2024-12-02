@@ -46,8 +46,20 @@
                 Padding="10"
                 BackgroundColor="Green"
                 TextColor="White" />
-            
-            
+
+            <Button
+                
+                x:Name="IrPagina2"
+                Text="Ir a Pagina 2"
+                Clicked="IrPagina2_Clicked"
+                
+                
+                
+                
+                />
+
+
+
             <Label
                 x:Name="MensajeEncriptadoLabel"
                 Text=""
