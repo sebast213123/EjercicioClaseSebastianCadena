@@ -10,7 +10,7 @@
 
             
             <Image
-                Source="dotnet_bot.png"
+                Source="https://blog.phonehouse.es/wp-content/uploads/2010/07/movistar_logo_sombra.png"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
